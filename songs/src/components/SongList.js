@@ -4,7 +4,7 @@ import { selectSong } from '../actions';
 
 class SongList extends Component {
     renderList(){
-        return this.props.songs.map((song, i) => {
+        return this.props.songs.map((song) => {
             return (
                 <div className="item" key={song.title}>
                     <div className="right floated content">
